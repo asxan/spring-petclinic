@@ -6,13 +6,19 @@
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
   <version>2.4.5</version>
-
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>2.4.5</version>
   </parent>
   <name>petclinic</name>
+
+  <distributionManagement> 
+    <snapshotRepository>
+      <id>nexus</id>
+      <url>http://pet-build-tools.asxan.ml:8081/service/rest/repository/browse/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <properties>
 
