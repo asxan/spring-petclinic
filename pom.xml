@@ -17,6 +17,10 @@
       <id>nexus</id>
       <url>http://pet-build-tools.asxan.ml:8081/service/rest/repository/browse/maven-snapshots/</url>
     </snapshotRepository>
+    <repository>
+      <id>nexus</id>
+      <url>http://pet-build-tools.asxan.ml:8081/service/rest/repository/browse/maven-releases/</url>
+    </repository>
   </distributionManagement>
   <properties>
 
