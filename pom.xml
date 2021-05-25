@@ -15,7 +15,7 @@
   <distributionManagement> 
     <snapshotRepository>
       <id>nexus</id>
-      <url>http://pet-build-tools.asxan.ml:8081/#browse/browse:maven-snapshots/</url>
+      <url>http://pet-build-tools.asxan.ml:8081/service/rest/repository/browse/maven-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
   <properties>
