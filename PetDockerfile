@@ -7,7 +7,7 @@ VOLUME /tmp
 
 WORKDIR /tmp/petclinic
 
-COPY ./target/*.jar petclinic.jar
+COPY *.jar petclinic.jar
 
 EXPOSE 8080/tcp
 
