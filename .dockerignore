@@ -1,6 +1,5 @@
-# Allow files
-! *.jar
 # Deny files
-./*
 target/*
-
+./*
+# Allow files
+! ./*.jar
