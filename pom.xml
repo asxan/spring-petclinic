@@ -16,11 +16,11 @@
   <distributionManagement> 
     <snapshotRepository>
       <id>nexus</id>
-      <url>http://pet-build-tools.asxan.ml:8081/repository/maven-snapshots/</url>
+      <url>https://nexus.asxan.ml/repository/maven-snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>nexus</id>
-      <url>http://pet-build-tools.asxan.ml:8081/repository/maven-releases/</url>
+      <url>https://nexus.asxan.ml/repository/maven-releases/</url>
     </repository>
   </distributionManagement>
   <properties>
